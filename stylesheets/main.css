@@ -1,0 +1,1480 @@
+/* line 9, ../../src/stylesheets/_grid.sass */
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, ../../src/stylesheets/_grid.sass */
+body {
+  font: 1em/1.5em "Source Sans Pro", sans-serif;
+  color: #707070;
+}
+
+/* line 21, ../../src/stylesheets/_grid.sass */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 25, ../../src/stylesheets/_grid.sass */
+.row {
+  padding: 10px 0;
+  zoom: 1;
+}
+/* line 29, ../../src/stylesheets/_grid.sass */
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+/* line 34, ../../src/stylesheets/_grid.sass */
+.row:after {
+  clear: both;
+}
+
+/* line 37, ../../src/stylesheets/_grid.sass */
+.col {
+  float: left;
+}
+
+/* line 42, ../../src/stylesheets/_grid.sass */
+.social {
+  width: 16.66667%;
+}
+
+/* line 46, ../../src/stylesheets/_grid.sass */
+.callout {
+  width: 33%;
+}
+
+/* line 58, ../../src/stylesheets/_grid.sass */
+.logo {
+  width: 83.33333%;
+}
+
+@media only screen and (min-width: 725px) and (max-width: 960px) {
+  /* line 71, ../../src/stylesheets/_grid.sass */
+  .container {
+    max-width: 700px;
+  }
+
+  /* line 78, ../../src/stylesheets/_grid.sass */
+  .social {
+    width: 25%;
+  }
+
+  /* line 84, ../../src/stylesheets/_grid.sass */
+  .callout {
+    width: 50%;
+  }
+
+  /* line 90, ../../src/stylesheets/_grid.sass */
+  .logo {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 724px) {
+  /* line 105, ../../src/stylesheets/_grid.sass */
+  .container {
+    max-width: 95%;
+  }
+
+  /* line 109, ../../src/stylesheets/_grid.sass */
+  .callout {
+    left: auto;
+    clear: both;
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
+  /* line 123, ../../src/stylesheets/_grid.sass */
+  .social {
+    display: none;
+  }
+}
+@font-face {
+  font-family: "proxima_novasemibold";
+  src: url("../fonts/proximanova-semibold-webfont.eot");
+  src: url("../fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold-webfont.woff") format("woff"), url("../fonts/proximanova-semibold-webfont.ttf") format("truetype"), url("../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novaregular_italic";
+  src: url("../fonts/proximanova-regularitalic-webfont.eot");
+  src: url("../fonts/proximanova-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regularitalic-webfont.woff") format("woff"), url("../fonts/proximanova-regularitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-regularitalic-webfont.svg#proxima_novaregular_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_rgregular";
+  src: url("../fonts/proximanova-regular-webfont.eot");
+  src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novaregular_italic";
+  src: url("../fonts/proximanova-regitalic-webfont.eot");
+  src: url("../fonts/proximanova-regitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regitalic-webfont.woff") format("woff"), url("../fonts/proximanova-regitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-regitalic-webfont.svg#proxima_novaregular_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novalight_italic";
+  src: url("../fonts/proximanova-lightitalic-webfont.eot");
+  src: url("../fonts/proximanova-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-lightitalic-webfont.woff") format("woff"), url("../fonts/proximanova-lightitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-lightitalic-webfont.svg#proxima_novalight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novalight";
+  src: url("../fonts/proximanova-light-webfont.eot");
+  src: url("../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novaextrabold";
+  src: url("../fonts/proximanova-extrabold-webfont.eot");
+  src: url("../fonts/proximanova-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-extrabold-webfont.woff") format("woff"), url("../fonts/proximanova-extrabold-webfont.ttf") format("truetype"), url("../fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_rgbold_italic";
+  src: url("../fonts/proximanova-boldit-webfont.eot");
+  src: url("../fonts/proximanova-boldit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-boldit-webfont.woff") format("woff"), url("../fonts/proximanova-boldit-webfont.ttf") format("truetype"), url("../fonts/proximanova-boldit-webfont.svg#proxima_nova_rgbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_rgbold";
+  src: url("../fonts/proximanova-bold-webfont.eot");
+  src: url("../fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-bold-webfont.woff") format("woff"), url("../fonts/proximanova-bold-webfont.ttf") format("truetype"), url("../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novablack";
+  src: url("../fonts/proximanova-black-webfont.eot");
+  src: url("../fonts/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-black-webfont.woff") format("woff"), url("../fonts/proximanova-black-webfont.ttf") format("truetype"), url("../fonts/proximanova-black-webfont.svg#proxima_novablack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_cn_rgregular";
+  src: url("../fonts/proximanovacond-regular-webfont.eot");
+  src: url("../fonts/proximanovacond-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular-webfont.woff") format("woff"), url("../fonts/proximanovacond-regular-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-regular-webfont.svg#proxima_nova_cn_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_condensedRgIt";
+  src: url("../fonts/proximanovacond-regularit-webfont.eot");
+  src: url("../fonts/proximanovacond-regularit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regularit-webfont.woff") format("woff"), url("../fonts/proximanovacond-regularit-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-regularit-webfont.svg#proxima_nova_condensedRgIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_condensedLtIt";
+  src: url("../fonts/proximanovacond-lightit-webfont.eot");
+  src: url("../fonts/proximanovacond-lightit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-lightit-webfont.woff") format("woff"), url("../fonts/proximanovacond-lightit-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-lightit-webfont.svg#proxima_nova_condensedLtIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_condensedSBd";
+  src: url("../fonts/proximanovacond-semibold-webfont.eot");
+  src: url("../fonts/proximanovacond-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-semibold-webfont.woff") format("woff"), url("../fonts/proximanovacond-semibold-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-semibold-webfont.svg#proxima_nova_condensedSBd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_condensedSBdIt";
+  src: url("../fonts/proximanovacond-semiboldit-webfont.eot");
+  src: url("../fonts/proximanovacond-semiboldit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-semiboldit-webfont.woff") format("woff"), url("../fonts/proximanovacond-semiboldit-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-semiboldit-webfont.svg#proxima_nova_condensedSBdIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_novasemibold_italic";
+  src: url("../fonts/proximanova-semibolditalic-webfont.eot");
+  src: url("../fonts/proximanova-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibolditalic-webfont.woff") format("woff"), url("../fonts/proximanova-semibolditalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proxima_nova_condensedlight";
+  src: url("../fonts/proximanovacond-light-webfont.eot");
+  src: url("../fonts/proximanovacond-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-light-webfont.woff") format("woff"), url("../fonts/proximanovacond-light-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-light-webfont.svg#proxima_nova_condensedlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../../src/stylesheets/_animation.sass */
+.navigator {
+  position: absolute;
+  right: 0;
+  top: 120px;
+  background: #cceefb;
+  height: 115px;
+  width: 5px;
+}
+/* line 8, ../../src/stylesheets/_animation.sass */
+.navigator button {
+  position: absolute;
+  border: 5px solid #cceefb;
+  background: #cceefb;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  left: -5px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s linear;
+          transition: all 0.1s linear;
+  outline: none;
+}
+/* line 19, ../../src/stylesheets/_animation.sass */
+.navigator button:nth-of-type(1) {
+  top: 0px;
+}
+/* line 21, ../../src/stylesheets/_animation.sass */
+.navigator button:nth-of-type(2) {
+  top: 50px;
+}
+/* line 23, ../../src/stylesheets/_animation.sass */
+.navigator button:nth-of-type(3) {
+  top: 100px;
+}
+/* line 25, ../../src/stylesheets/_animation.sass */
+.navigator button:nth-of-type(4) {
+  top: 150px;
+}
+/* line 27, ../../src/stylesheets/_animation.sass */
+.navigator button.active {
+  border: 5px solid white;
+  background: #00aced;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+/* line 33, ../../src/stylesheets/_animation.sass */
+.hand-bg {
+  background: url("../images/hand-bg.png");
+  position: relative;
+  float: right;
+  top: -20px;
+  height: 390px;
+  width: 390px;
+  margin-right: 100px;
+  display: block;
+  overflow: hidden;
+  -webkit-animation-name: slide-down;
+          animation-name: slide-down;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slide-down {
+  /* line 50, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 0px;
+  }
+
+  /* line 52, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: 400px;
+    z-index: -1;
+  }
+}
+
+@keyframes slide-down {
+  /* line 50, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 0px;
+  }
+
+  /* line 52, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: 400px;
+    z-index: -1;
+  }
+}
+
+/* line 56, ../../src/stylesheets/_animation.sass */
+.content {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 410px;
+}
+/* line 61, ../../src/stylesheets/_animation.sass */
+.content h2 {
+  color: #b5d460;
+  margin-bottom: 20px;
+}
+/* line 64, ../../src/stylesheets/_animation.sass */
+.content p, .content ul {
+  font-family: "proxima_novalight";
+  color: white;
+  opacity: 0.9;
+}
+
+/* line 69, ../../src/stylesheets/_animation.sass */
+.content-1, .content-2, .content-3 {
+  position: absolute;
+}
+/* line 71, ../../src/stylesheets/_animation.sass */
+.content-1.active, .content-2.active, .content-3.active {
+  opacity: 1;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 76, ../../src/stylesheets/_animation.sass */
+.content-1.hidden, .content-2.hidden, .content-3.hidden {
+  opacity: 0;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+
+/* line 82, ../../src/stylesheets/_animation.sass */
+.content-1 {
+  -webkit-animation-name: fade-out;
+          animation-name: fade-out;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade-out {
+  /* line 90, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 92, ../../src/stylesheets/_animation.sass */
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  /* line 90, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 92, ../../src/stylesheets/_animation.sass */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 95, ../../src/stylesheets/_animation.sass */
+.content-2 {
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fade-in {
+  /* line 104, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 106, ../../src/stylesheets/_animation.sass */
+  10% {
+    opacity: 1;
+  }
+
+  /* line 108, ../../src/stylesheets/_animation.sass */
+  50% {
+    opacity: 1;
+  }
+
+  /* line 110, ../../src/stylesheets/_animation.sass */
+  90% {
+    opacity: 1;
+  }
+
+  /* line 112, ../../src/stylesheets/_animation.sass */
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  /* line 104, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 106, ../../src/stylesheets/_animation.sass */
+  10% {
+    opacity: 1;
+  }
+
+  /* line 108, ../../src/stylesheets/_animation.sass */
+  50% {
+    opacity: 1;
+  }
+
+  /* line 110, ../../src/stylesheets/_animation.sass */
+  90% {
+    opacity: 1;
+  }
+
+  /* line 112, ../../src/stylesheets/_animation.sass */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 115, ../../src/stylesheets/_animation.sass */
+.content-3 {
+  -webkit-animation-name: fade-in-after;
+          animation-name: fade-in-after;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fade-in-after {
+  /* line 124, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 126, ../../src/stylesheets/_animation.sass */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-after {
+  /* line 124, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 126, ../../src/stylesheets/_animation.sass */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 129, ../../src/stylesheets/_animation.sass */
+.laptop {
+  background: url("../images/laptop.png");
+  position: absolute;
+  top: 381px;
+  right: 50px;
+  z-index: 0;
+  -webkit-animation-name: slide-up;
+          animation-name: slide-up;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slide-up {
+  /* line 142, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 381px;
+  }
+
+  /* line 144, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: -10px;
+    z-index: 0;
+  }
+}
+
+@keyframes slide-up {
+  /* line 142, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 381px;
+  }
+
+  /* line 144, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: -10px;
+    z-index: 0;
+  }
+}
+
+/* line 149, ../../src/stylesheets/_animation.sass */
+.screens {
+  position: absolute;
+  overflow: hidden;
+  top: 66px;
+  left: 118px;
+  z-index: 1;
+  width: 188px;
+  height: 335px;
+  display: block;
+}
+/* line 158, ../../src/stylesheets/_animation.sass */
+.screens img {
+  position: absolute;
+}
+/* line 160, ../../src/stylesheets/_animation.sass */
+.screens .menu {
+  bottom: 13px;
+}
+
+/* line 163, ../../src/stylesheets/_animation.sass */
+.screen-1 {
+  z-index: 4;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 168, ../../src/stylesheets/_animation.sass */
+.screen-2 {
+  z-index: 2;
+}
+
+/* line 171, ../../src/stylesheets/_animation.sass */
+.popup {
+  z-index: 3;
+  top: 70px;
+  left: 35px;
+  -webkit-animation-name: grow;
+          animation-name: grow;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes grow {
+  /* line 182, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+
+  /* line 186, ../../src/stylesheets/_animation.sass */
+  50% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 189, ../../src/stylesheets/_animation.sass */
+  75% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  /* line 192, ../../src/stylesheets/_animation.sass */
+  85% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.86);
+            transform: scale(0.86);
+  }
+
+  /* line 195, ../../src/stylesheets/_animation.sass */
+  90% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  /* line 198, ../../src/stylesheets/_animation.sass */
+  95% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.89);
+            transform: scale(0.89);
+  }
+
+  /* line 201, ../../src/stylesheets/_animation.sass */
+  100% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  /* line 182, ../../src/stylesheets/_animation.sass */
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+
+  /* line 186, ../../src/stylesheets/_animation.sass */
+  50% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 189, ../../src/stylesheets/_animation.sass */
+  75% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  /* line 192, ../../src/stylesheets/_animation.sass */
+  85% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.86);
+            transform: scale(0.86);
+  }
+
+  /* line 195, ../../src/stylesheets/_animation.sass */
+  90% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  /* line 198, ../../src/stylesheets/_animation.sass */
+  95% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(0.89);
+            transform: scale(0.89);
+  }
+
+  /* line 201, ../../src/stylesheets/_animation.sass */
+  100% {
+    -webkit-transform-origin: 15% 100%;
+            transform-origin: 15% 100%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* line 204, ../../src/stylesheets/_animation.sass */
+.finger {
+  background: url("../images/finger.png");
+  width: 97px;
+  height: 173px;
+  position: absolute;
+  z-index: 2;
+  -webkit-animation-name: click;
+          animation-name: click;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes click {
+  /* line 216, ../../src/stylesheets/_animation.sass */
+  0% {
+    bottom: -150px;
+    right: 30px;
+  }
+
+  /* line 219, ../../src/stylesheets/_animation.sass */
+  30% {
+    bottom: -90px;
+    right: 70px;
+  }
+
+  /* line 222, ../../src/stylesheets/_animation.sass */
+  35% {
+    bottom: -90px;
+    right: 75px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+
+  /* line 227, ../../src/stylesheets/_animation.sass */
+  40% {
+    bottom: -90px;
+    right: 75px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  /* line 232, ../../src/stylesheets/_animation.sass */
+  45% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  /* line 237, ../../src/stylesheets/_animation.sass */
+  50% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 242, ../../src/stylesheets/_animation.sass */
+  60% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 247, ../../src/stylesheets/_animation.sass */
+  70% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 252, ../../src/stylesheets/_animation.sass */
+  80% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 257, ../../src/stylesheets/_animation.sass */
+  90% {
+    bottom: -110px;
+    right: 70px;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+
+  /* line 261, ../../src/stylesheets/_animation.sass */
+  100% {
+    bottom: -110px;
+    right: 70px;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes click {
+  /* line 216, ../../src/stylesheets/_animation.sass */
+  0% {
+    bottom: -150px;
+    right: 30px;
+  }
+
+  /* line 219, ../../src/stylesheets/_animation.sass */
+  30% {
+    bottom: -90px;
+    right: 70px;
+  }
+
+  /* line 222, ../../src/stylesheets/_animation.sass */
+  35% {
+    bottom: -90px;
+    right: 75px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+
+  /* line 227, ../../src/stylesheets/_animation.sass */
+  40% {
+    bottom: -90px;
+    right: 75px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  /* line 232, ../../src/stylesheets/_animation.sass */
+  45% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  /* line 237, ../../src/stylesheets/_animation.sass */
+  50% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 242, ../../src/stylesheets/_animation.sass */
+  60% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 247, ../../src/stylesheets/_animation.sass */
+  70% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 252, ../../src/stylesheets/_animation.sass */
+  80% {
+    bottom: -120px;
+    right: 30px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  /* line 257, ../../src/stylesheets/_animation.sass */
+  90% {
+    bottom: -110px;
+    right: 70px;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+
+  /* line 261, ../../src/stylesheets/_animation.sass */
+  100% {
+    bottom: -110px;
+    right: 70px;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+/* line 266, ../../src/stylesheets/_animation.sass */
+.screen-1 {
+  -webkit-animation-name: slide-one;
+          animation-name: slide-one;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slide-one {
+  /* line 274, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  /* line 277, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: 0px;
+    left: -200px;
+  }
+}
+
+@keyframes slide-one {
+  /* line 274, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  /* line 277, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: 0px;
+    left: -200px;
+  }
+}
+
+/* line 281, ../../src/stylesheets/_animation.sass */
+.screen-2 {
+  -webkit-animation-name: slide-two;
+          animation-name: slide-two;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slide-two {
+  /* line 289, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  /* line 292, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: -400px;
+    left: 0px;
+  }
+}
+
+@keyframes slide-two {
+  /* line 289, ../../src/stylesheets/_animation.sass */
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  /* line 292, ../../src/stylesheets/_animation.sass */
+  100% {
+    top: -400px;
+    left: 0px;
+  }
+}
+
+/* line 297, ../../src/stylesheets/_animation.sass */
+.animation.step1 .hand-bg {
+  top: -20px;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 302, ../../src/stylesheets/_animation.sass */
+.animation.step1 .laptop {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 306, ../../src/stylesheets/_animation.sass */
+.animation.step1 .finger {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  bottom: -130px;
+  right: 30px;
+}
+/* line 312, ../../src/stylesheets/_animation.sass */
+.animation.step1 .screen-1 {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  z-index: 5;
+}
+/* line 317, ../../src/stylesheets/_animation.sass */
+.animation.step1 .scrreen-2 {
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 323, ../../src/stylesheets/_animation.sass */
+.animation.step1 .screen-3 {
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-animation: none;
+          animation: none;
+}
+
+/* line 331, ../../src/stylesheets/_animation.sass */
+.animation.step2 .hand-bg {
+  top: -20px;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 336, ../../src/stylesheets/_animation.sass */
+.animation.step2 .laptop {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 340, ../../src/stylesheets/_animation.sass */
+.animation.step2 .finger {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  bottom: -130px;
+  right: 30px;
+}
+/* line 346, ../../src/stylesheets/_animation.sass */
+.animation.step2 .screen-1 {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  z-index: 4;
+}
+/* line 351, ../../src/stylesheets/_animation.sass */
+.animation.step2 .screen-2 {
+  z-index: 5;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 356, ../../src/stylesheets/_animation.sass */
+.animation.step2 .screen-2 .bg {
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+/* line 360, ../../src/stylesheets/_animation.sass */
+.animation.step2 .menu {
+  z-index: 5;
+}
+/* line 362, ../../src/stylesheets/_animation.sass */
+.animation.step2 .popup {
+  top: 70px;
+  left: 35px;
+  z-index: 5;
+}
+/* line 366, ../../src/stylesheets/_animation.sass */
+.animation.step2 .screen-3 {
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-animation: none;
+          animation: none;
+}
+
+/* line 374, ../../src/stylesheets/_animation.sass */
+.animation.step3 .hand-bg {
+  top: -20px;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 379, ../../src/stylesheets/_animation.sass */
+.animation.step3 .laptop {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 383, ../../src/stylesheets/_animation.sass */
+.animation.step3 .finger {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  bottom: -130px;
+  right: 30px;
+}
+/* line 389, ../../src/stylesheets/_animation.sass */
+.animation.step3 .screen-1 {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  z-index: 4;
+}
+/* line 394, ../../src/stylesheets/_animation.sass */
+.animation.step3 .screen-2 {
+  z-index: 4;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 399, ../../src/stylesheets/_animation.sass */
+.animation.step3 .screen-2 .bg {
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+/* line 403, ../../src/stylesheets/_animation.sass */
+.animation.step3 .menu {
+  z-index: 5;
+}
+/* line 405, ../../src/stylesheets/_animation.sass */
+.animation.step3 .popup {
+  top: 70px;
+  left: 35px;
+  z-index: 4;
+}
+/* line 409, ../../src/stylesheets/_animation.sass */
+.animation.step3 .screen-3 {
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-animation: none;
+          animation: none;
+}
+
+/* line 7, ../../src/stylesheets/main.sass */
+input[type="text"],
+input[type="email"] {
+  font-size: 1em;
+  outline: none;
+}
+
+/* line 12, ../../src/stylesheets/main.sass */
+header {
+  padding: 15px;
+}
+
+/* line 15, ../../src/stylesheets/main.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 18, ../../src/stylesheets/main.sass */
+h2, h3 {
+  font-family: "proxima_novalight";
+  color: #2c5385;
+}
+
+/* line 22, ../../src/stylesheets/main.sass */
+p, span {
+  font-family: "proxima_nova_rgregular";
+  color: #2c5385;
+}
+
+/* line 25, ../../src/stylesheets/main.sass */
+ul {
+  margin-left: 20px;
+  color: white;
+}
+
+/* line 29, ../../src/stylesheets/main.sass */
+.button {
+  font-family: "proxima_novasemibold";
+}
+
+/* line 32, ../../src/stylesheets/main.sass */
+input {
+  font-family: "proxima_novalight";
+}
+
+/* line 35, ../../src/stylesheets/main.sass */
+footer span {
+  font-family: "proxima_novalight";
+}
+
+/* line 38, ../../src/stylesheets/main.sass */
+.button {
+  text-transform: uppercase;
+  background: #a9cb5d;
+  text-decoration: none;
+  color: #1d3d78;
+  border-radius: 11px;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+/* line 48, ../../src/stylesheets/main.sass */
+.button:hover {
+  background: #8ca552;
+}
+
+/* line 51, ../../src/stylesheets/main.sass */
+input {
+  border-radius: 11px;
+  background: white;
+  border: 1px solid #dadcdb;
+  padding: 12px 20px;
+}
+
+/* line 58, ../../src/stylesheets/main.sass */
+.hero {
+  height: 368px;
+  background: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+/* line 64, ../../src/stylesheets/main.sass */
+.actions {
+  background: #eff3f6;
+  padding: 28px;
+}
+/* line 67, ../../src/stylesheets/main.sass */
+.actions form {
+  text-align: center;
+}
+/* line 69, ../../src/stylesheets/main.sass */
+.actions p {
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  text-align: left;
+  width: 288px;
+  margin-left: 23px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #274c79;
+}
+/* line 78, ../../src/stylesheets/main.sass */
+.actions input[type="email"] {
+  width: 302px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+/* line 82, ../../src/stylesheets/main.sass */
+.actions .button {
+  width: 190px;
+  vertical-align: middle;
+}
+/* line 85, ../../src/stylesheets/main.sass */
+.actions input[type="submit"] {
+  border: none;
+  vertical-align: middle;
+}
+
+/* line 90, ../../src/stylesheets/main.sass */
+.callouts {
+  padding-top: 58px;
+  background: white;
+}
+
+/* line 93, ../../src/stylesheets/main.sass */
+.callout {
+  text-align: center;
+  height: 340px;
+}
+/* line 96, ../../src/stylesheets/main.sass */
+.callout .wrapper {
+  width: 210px;
+  margin: 0 auto;
+}
+/* line 99, ../../src/stylesheets/main.sass */
+.callout img {
+  margin-bottom: 10px;
+}
+/* line 101, ../../src/stylesheets/main.sass */
+.callout h3 {
+  margin-bottom: 15px;
+}
+/* line 103, ../../src/stylesheets/main.sass */
+.callout p {
+  font-size: 14px;
+}
+
+/* line 107, ../../src/stylesheets/main.sass */
+.social i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 15px;
+  color: white;
+  cursor: pointer;
+}
+/* line 116, ../../src/stylesheets/main.sass */
+.social i.fa-facebook {
+  background: #3460a1;
+}
+/* line 118, ../../src/stylesheets/main.sass */
+.social i.fa-twitter {
+  background: #28aae1;
+}
+/* line 120, ../../src/stylesheets/main.sass */
+.social i.fa-linkedin {
+  background: #136d9d;
+}
+
+/* line 123, ../../src/stylesheets/main.sass */
+footer {
+  background: #eff3f6;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 35px;
+  margin-top: 30px;
+  color: #2c5385;
+}
+/* line 130, ../../src/stylesheets/main.sass */
+footer a {
+  color: #2c5385;
+}
+/* line 132, ../../src/stylesheets/main.sass */
+footer a:first-of-type {
+  margin-left: 20px;
+}
+/* line 135, ../../src/stylesheets/main.sass */
+footer a:not(:last-child):after {
+  margin: 0 10px;
+  content: "|";
+}
+
+@media only screen and (min-width: 725px) and (max-width: 960px) {
+  /* line 140, ../../src/stylesheets/main.sass */
+  input[type="submit"] {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 724px) {
+  /* line 145, ../../src/stylesheets/main.sass */
+  .actions p {
+    text-align: center;
+  }
+  /* line 147, ../../src/stylesheets/main.sass */
+  .actions input {
+    margin-top: 20px;
+  }
+}
