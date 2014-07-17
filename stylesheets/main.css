@@ -9,7 +9,7 @@
 
 /* line 17, ../../src/stylesheets/_grid.sass */
 body {
-  font: 1em/1.5em "Source Sans Pro", sans-serif;
+  font: 300 1em/1.5em "Proxima Nova", sans-serif;
   color: #707070;
 }
 
@@ -96,138 +96,26 @@ body {
   }
 }
 @font-face {
-  font-family: "proxima_novasemibold";
-  src: url("../fonts/proximanova-semibold-webfont.eot");
-  src: url("../fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold-webfont.woff") format("woff"), url("../fonts/proximanova-semibold-webfont.ttf") format("truetype"), url("../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_novaregular_italic";
-  src: url("../fonts/proximanova-regularitalic-webfont.eot");
-  src: url("../fonts/proximanova-regularitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regularitalic-webfont.woff") format("woff"), url("../fonts/proximanova-regularitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-regularitalic-webfont.svg#proxima_novaregular_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_rgregular";
-  src: url("../fonts/proximanova-regular-webfont.eot");
-  src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_novaregular_italic";
-  src: url("../fonts/proximanova-regitalic-webfont.eot");
-  src: url("../fonts/proximanova-regitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regitalic-webfont.woff") format("woff"), url("../fonts/proximanova-regitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-regitalic-webfont.svg#proxima_novaregular_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_novalight_italic";
-  src: url("../fonts/proximanova-lightitalic-webfont.eot");
-  src: url("../fonts/proximanova-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-lightitalic-webfont.woff") format("woff"), url("../fonts/proximanova-lightitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-lightitalic-webfont.svg#proxima_novalight_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_novalight";
+  font-family: "Proxima Nova";
   src: url("../fonts/proximanova-light-webfont.eot");
   src: url("../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "proxima_novaextrabold";
-  src: url("../fonts/proximanova-extrabold-webfont.eot");
-  src: url("../fonts/proximanova-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-extrabold-webfont.woff") format("woff"), url("../fonts/proximanova-extrabold-webfont.ttf") format("truetype"), url("../fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold") format("svg");
-  font-weight: normal;
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-regular-webfont.eot");
+  src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "proxima_nova_rgbold_italic";
-  src: url("../fonts/proximanova-boldit-webfont.eot");
-  src: url("../fonts/proximanova-boldit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-boldit-webfont.woff") format("woff"), url("../fonts/proximanova-boldit-webfont.ttf") format("truetype"), url("../fonts/proximanova-boldit-webfont.svg#proxima_nova_rgbold_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_rgbold";
-  src: url("../fonts/proximanova-bold-webfont.eot");
-  src: url("../fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-bold-webfont.woff") format("woff"), url("../fonts/proximanova-bold-webfont.ttf") format("truetype"), url("../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_novablack";
-  src: url("../fonts/proximanova-black-webfont.eot");
-  src: url("../fonts/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-black-webfont.woff") format("woff"), url("../fonts/proximanova-black-webfont.ttf") format("truetype"), url("../fonts/proximanova-black-webfont.svg#proxima_novablack") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_cn_rgregular";
-  src: url("../fonts/proximanovacond-regular-webfont.eot");
-  src: url("../fonts/proximanovacond-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular-webfont.woff") format("woff"), url("../fonts/proximanovacond-regular-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-regular-webfont.svg#proxima_nova_cn_rgregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_condensedRgIt";
-  src: url("../fonts/proximanovacond-regularit-webfont.eot");
-  src: url("../fonts/proximanovacond-regularit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regularit-webfont.woff") format("woff"), url("../fonts/proximanovacond-regularit-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-regularit-webfont.svg#proxima_nova_condensedRgIt") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_condensedLtIt";
-  src: url("../fonts/proximanovacond-lightit-webfont.eot");
-  src: url("../fonts/proximanovacond-lightit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-lightit-webfont.woff") format("woff"), url("../fonts/proximanovacond-lightit-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-lightit-webfont.svg#proxima_nova_condensedLtIt") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_condensedSBd";
-  src: url("../fonts/proximanovacond-semibold-webfont.eot");
-  src: url("../fonts/proximanovacond-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-semibold-webfont.woff") format("woff"), url("../fonts/proximanovacond-semibold-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-semibold-webfont.svg#proxima_nova_condensedSBd") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_condensedSBdIt";
-  src: url("../fonts/proximanovacond-semiboldit-webfont.eot");
-  src: url("../fonts/proximanovacond-semiboldit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-semiboldit-webfont.woff") format("woff"), url("../fonts/proximanovacond-semiboldit-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-semiboldit-webfont.svg#proxima_nova_condensedSBdIt") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_novasemibold_italic";
-  src: url("../fonts/proximanova-semibolditalic-webfont.eot");
-  src: url("../fonts/proximanova-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibolditalic-webfont.woff") format("woff"), url("../fonts/proximanova-semibolditalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "proxima_nova_condensedlight";
-  src: url("../fonts/proximanovacond-light-webfont.eot");
-  src: url("../fonts/proximanovacond-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-light-webfont.woff") format("woff"), url("../fonts/proximanovacond-light-webfont.ttf") format("truetype"), url("../fonts/proximanovacond-light-webfont.svg#proxima_nova_condensedlight") format("svg");
-  font-weight: normal;
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova-semibold-webfont.eot");
+  src: url("../fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold-webfont.woff") format("woff"), url("../fonts/proximanova-semibold-webfont.ttf") format("truetype"), url("../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold") format("svg");
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -235,9 +123,9 @@ body {
 .navigator {
   position: absolute;
   right: 0;
-  top: 120px;
+  top: 100px;
   background: #cceefb;
-  height: 115px;
+  height: 155px;
   width: 5px;
 }
 /* line 8, ../../src/stylesheets/_animation.sass */
@@ -345,16 +233,17 @@ body {
 }
 /* line 64, ../../src/stylesheets/_animation.sass */
 .content p, .content ul {
-  font-family: "proxima_novalight";
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
   color: white;
   opacity: 0.9;
 }
 
-/* line 69, ../../src/stylesheets/_animation.sass */
+/* line 70, ../../src/stylesheets/_animation.sass */
 .content-1, .content-2, .content-3 {
   position: absolute;
 }
-/* line 71, ../../src/stylesheets/_animation.sass */
+/* line 72, ../../src/stylesheets/_animation.sass */
 .content-1.active, .content-2.active, .content-3.active {
   opacity: 1;
   -webkit-transition-property: none;
@@ -365,19 +254,19 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 76, ../../src/stylesheets/_animation.sass */
+/* line 77, ../../src/stylesheets/_animation.sass */
 .content-1.hidden, .content-2.hidden, .content-3.hidden {
-  opacity: 0;
-  -webkit-transition-property: none;
-          transition-property: none;
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
-  -webkit-animation: none;
-          animation: none;
+  opacity: 0 !important;
+  -webkit-transition-property: none !important;
+          transition-property: none !important;
+  -webkit-transform: none !important;
+      -ms-transform: none !important;
+          transform: none !important;
+  -webkit-animation: none !important;
+          animation: none !important;
 }
 
-/* line 82, ../../src/stylesheets/_animation.sass */
+/* line 83, ../../src/stylesheets/_animation.sass */
 .content-1 {
   -webkit-animation-name: fade-out;
           animation-name: fade-out;
@@ -392,30 +281,30 @@ body {
 }
 
 @-webkit-keyframes fade-out {
-  /* line 90, ../../src/stylesheets/_animation.sass */
+  /* line 91, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 1;
   }
 
-  /* line 92, ../../src/stylesheets/_animation.sass */
+  /* line 93, ../../src/stylesheets/_animation.sass */
   100% {
     opacity: 0;
   }
 }
 
 @keyframes fade-out {
-  /* line 90, ../../src/stylesheets/_animation.sass */
+  /* line 91, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 1;
   }
 
-  /* line 92, ../../src/stylesheets/_animation.sass */
+  /* line 93, ../../src/stylesheets/_animation.sass */
   100% {
     opacity: 0;
   }
 }
 
-/* line 95, ../../src/stylesheets/_animation.sass */
+/* line 96, ../../src/stylesheets/_animation.sass */
 .content-2 {
   -webkit-animation-name: fade-in;
           animation-name: fade-in;
@@ -431,60 +320,60 @@ body {
 }
 
 @-webkit-keyframes fade-in {
-  /* line 104, ../../src/stylesheets/_animation.sass */
+  /* line 105, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 106, ../../src/stylesheets/_animation.sass */
+  /* line 107, ../../src/stylesheets/_animation.sass */
   10% {
     opacity: 1;
   }
 
-  /* line 108, ../../src/stylesheets/_animation.sass */
+  /* line 109, ../../src/stylesheets/_animation.sass */
   50% {
     opacity: 1;
   }
 
-  /* line 110, ../../src/stylesheets/_animation.sass */
+  /* line 111, ../../src/stylesheets/_animation.sass */
   90% {
     opacity: 1;
   }
 
-  /* line 112, ../../src/stylesheets/_animation.sass */
+  /* line 113, ../../src/stylesheets/_animation.sass */
   100% {
     opacity: 0;
   }
 }
 
 @keyframes fade-in {
-  /* line 104, ../../src/stylesheets/_animation.sass */
+  /* line 105, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 106, ../../src/stylesheets/_animation.sass */
+  /* line 107, ../../src/stylesheets/_animation.sass */
   10% {
     opacity: 1;
   }
 
-  /* line 108, ../../src/stylesheets/_animation.sass */
+  /* line 109, ../../src/stylesheets/_animation.sass */
   50% {
     opacity: 1;
   }
 
-  /* line 110, ../../src/stylesheets/_animation.sass */
+  /* line 111, ../../src/stylesheets/_animation.sass */
   90% {
     opacity: 1;
   }
 
-  /* line 112, ../../src/stylesheets/_animation.sass */
+  /* line 113, ../../src/stylesheets/_animation.sass */
   100% {
     opacity: 0;
   }
 }
 
-/* line 115, ../../src/stylesheets/_animation.sass */
+/* line 116, ../../src/stylesheets/_animation.sass */
 .content-3 {
   -webkit-animation-name: fade-in-after;
           animation-name: fade-in-after;
@@ -500,32 +389,33 @@ body {
 }
 
 @-webkit-keyframes fade-in-after {
-  /* line 124, ../../src/stylesheets/_animation.sass */
+  /* line 125, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 126, ../../src/stylesheets/_animation.sass */
+  /* line 127, ../../src/stylesheets/_animation.sass */
   100% {
     opacity: 1;
   }
 }
 
 @keyframes fade-in-after {
-  /* line 124, ../../src/stylesheets/_animation.sass */
+  /* line 125, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 126, ../../src/stylesheets/_animation.sass */
+  /* line 127, ../../src/stylesheets/_animation.sass */
   100% {
     opacity: 1;
   }
 }
 
-/* line 129, ../../src/stylesheets/_animation.sass */
+/* line 130, ../../src/stylesheets/_animation.sass */
 .laptop {
   background: url("../images/laptop.png");
+  background-repeat: no-repeat;
   position: absolute;
   top: 381px;
   right: 50px;
@@ -543,12 +433,12 @@ body {
 }
 
 @-webkit-keyframes slide-up {
-  /* line 142, ../../src/stylesheets/_animation.sass */
+  /* line 144, ../../src/stylesheets/_animation.sass */
   0% {
     top: 381px;
   }
 
-  /* line 144, ../../src/stylesheets/_animation.sass */
+  /* line 146, ../../src/stylesheets/_animation.sass */
   100% {
     top: -10px;
     z-index: 0;
@@ -556,19 +446,19 @@ body {
 }
 
 @keyframes slide-up {
-  /* line 142, ../../src/stylesheets/_animation.sass */
+  /* line 144, ../../src/stylesheets/_animation.sass */
   0% {
     top: 381px;
   }
 
-  /* line 144, ../../src/stylesheets/_animation.sass */
+  /* line 146, ../../src/stylesheets/_animation.sass */
   100% {
     top: -10px;
     z-index: 0;
   }
 }
 
-/* line 149, ../../src/stylesheets/_animation.sass */
+/* line 151, ../../src/stylesheets/_animation.sass */
 .screens {
   position: absolute;
   overflow: hidden;
@@ -579,28 +469,28 @@ body {
   height: 335px;
   display: block;
 }
-/* line 158, ../../src/stylesheets/_animation.sass */
+/* line 160, ../../src/stylesheets/_animation.sass */
 .screens img {
   position: absolute;
 }
-/* line 160, ../../src/stylesheets/_animation.sass */
+/* line 162, ../../src/stylesheets/_animation.sass */
 .screens .menu {
   bottom: 13px;
 }
 
-/* line 163, ../../src/stylesheets/_animation.sass */
+/* line 165, ../../src/stylesheets/_animation.sass */
 .screen-1 {
   z-index: 4;
   top: 0px;
   left: 0px;
 }
 
-/* line 168, ../../src/stylesheets/_animation.sass */
+/* line 170, ../../src/stylesheets/_animation.sass */
 .screen-2 {
   z-index: 2;
 }
 
-/* line 171, ../../src/stylesheets/_animation.sass */
+/* line 173, ../../src/stylesheets/_animation.sass */
 .popup {
   z-index: 3;
   top: 70px;
@@ -618,7 +508,7 @@ body {
 }
 
 @-webkit-keyframes grow {
-  /* line 182, ../../src/stylesheets/_animation.sass */
+  /* line 184, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 0;
     -webkit-transform-origin: 15% 100%;
@@ -627,7 +517,7 @@ body {
             transform: scale(0);
   }
 
-  /* line 186, ../../src/stylesheets/_animation.sass */
+  /* line 188, ../../src/stylesheets/_animation.sass */
   50% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -635,7 +525,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 189, ../../src/stylesheets/_animation.sass */
+  /* line 191, ../../src/stylesheets/_animation.sass */
   75% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -643,7 +533,7 @@ body {
             transform: scale(0.9);
   }
 
-  /* line 192, ../../src/stylesheets/_animation.sass */
+  /* line 194, ../../src/stylesheets/_animation.sass */
   85% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -651,7 +541,7 @@ body {
             transform: scale(0.86);
   }
 
-  /* line 195, ../../src/stylesheets/_animation.sass */
+  /* line 197, ../../src/stylesheets/_animation.sass */
   90% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -659,7 +549,7 @@ body {
             transform: scale(0.95);
   }
 
-  /* line 198, ../../src/stylesheets/_animation.sass */
+  /* line 200, ../../src/stylesheets/_animation.sass */
   95% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -667,7 +557,7 @@ body {
             transform: scale(0.89);
   }
 
-  /* line 201, ../../src/stylesheets/_animation.sass */
+  /* line 203, ../../src/stylesheets/_animation.sass */
   100% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -677,7 +567,7 @@ body {
 }
 
 @keyframes grow {
-  /* line 182, ../../src/stylesheets/_animation.sass */
+  /* line 184, ../../src/stylesheets/_animation.sass */
   0% {
     opacity: 0;
     -webkit-transform-origin: 15% 100%;
@@ -686,7 +576,7 @@ body {
             transform: scale(0);
   }
 
-  /* line 186, ../../src/stylesheets/_animation.sass */
+  /* line 188, ../../src/stylesheets/_animation.sass */
   50% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -694,7 +584,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 189, ../../src/stylesheets/_animation.sass */
+  /* line 191, ../../src/stylesheets/_animation.sass */
   75% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -702,7 +592,7 @@ body {
             transform: scale(0.9);
   }
 
-  /* line 192, ../../src/stylesheets/_animation.sass */
+  /* line 194, ../../src/stylesheets/_animation.sass */
   85% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -710,7 +600,7 @@ body {
             transform: scale(0.86);
   }
 
-  /* line 195, ../../src/stylesheets/_animation.sass */
+  /* line 197, ../../src/stylesheets/_animation.sass */
   90% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -718,7 +608,7 @@ body {
             transform: scale(0.95);
   }
 
-  /* line 198, ../../src/stylesheets/_animation.sass */
+  /* line 200, ../../src/stylesheets/_animation.sass */
   95% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -726,7 +616,7 @@ body {
             transform: scale(0.89);
   }
 
-  /* line 201, ../../src/stylesheets/_animation.sass */
+  /* line 203, ../../src/stylesheets/_animation.sass */
   100% {
     -webkit-transform-origin: 15% 100%;
             transform-origin: 15% 100%;
@@ -735,7 +625,7 @@ body {
   }
 }
 
-/* line 204, ../../src/stylesheets/_animation.sass */
+/* line 206, ../../src/stylesheets/_animation.sass */
 .finger {
   background: url("../images/finger.png");
   width: 97px;
@@ -753,19 +643,19 @@ body {
 }
 
 @-webkit-keyframes click {
-  /* line 216, ../../src/stylesheets/_animation.sass */
+  /* line 218, ../../src/stylesheets/_animation.sass */
   0% {
     bottom: -150px;
     right: 30px;
   }
 
-  /* line 219, ../../src/stylesheets/_animation.sass */
+  /* line 221, ../../src/stylesheets/_animation.sass */
   30% {
     bottom: -90px;
     right: 70px;
   }
 
-  /* line 222, ../../src/stylesheets/_animation.sass */
+  /* line 224, ../../src/stylesheets/_animation.sass */
   35% {
     bottom: -90px;
     right: 75px;
@@ -775,7 +665,7 @@ body {
             transform: scale(0.8);
   }
 
-  /* line 227, ../../src/stylesheets/_animation.sass */
+  /* line 229, ../../src/stylesheets/_animation.sass */
   40% {
     bottom: -90px;
     right: 75px;
@@ -785,7 +675,7 @@ body {
             transform: scale(0.9);
   }
 
-  /* line 232, ../../src/stylesheets/_animation.sass */
+  /* line 234, ../../src/stylesheets/_animation.sass */
   45% {
     bottom: -120px;
     right: 30px;
@@ -795,7 +685,7 @@ body {
             transform: scale(0.95);
   }
 
-  /* line 237, ../../src/stylesheets/_animation.sass */
+  /* line 239, ../../src/stylesheets/_animation.sass */
   50% {
     bottom: -120px;
     right: 30px;
@@ -805,7 +695,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 242, ../../src/stylesheets/_animation.sass */
+  /* line 244, ../../src/stylesheets/_animation.sass */
   60% {
     bottom: -120px;
     right: 30px;
@@ -815,7 +705,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 247, ../../src/stylesheets/_animation.sass */
+  /* line 249, ../../src/stylesheets/_animation.sass */
   70% {
     bottom: -120px;
     right: 30px;
@@ -825,7 +715,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 252, ../../src/stylesheets/_animation.sass */
+  /* line 254, ../../src/stylesheets/_animation.sass */
   80% {
     bottom: -120px;
     right: 30px;
@@ -835,7 +725,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 257, ../../src/stylesheets/_animation.sass */
+  /* line 259, ../../src/stylesheets/_animation.sass */
   90% {
     bottom: -110px;
     right: 70px;
@@ -843,7 +733,7 @@ body {
             transform: scale(0.75);
   }
 
-  /* line 261, ../../src/stylesheets/_animation.sass */
+  /* line 263, ../../src/stylesheets/_animation.sass */
   100% {
     bottom: -110px;
     right: 70px;
@@ -853,19 +743,19 @@ body {
 }
 
 @keyframes click {
-  /* line 216, ../../src/stylesheets/_animation.sass */
+  /* line 218, ../../src/stylesheets/_animation.sass */
   0% {
     bottom: -150px;
     right: 30px;
   }
 
-  /* line 219, ../../src/stylesheets/_animation.sass */
+  /* line 221, ../../src/stylesheets/_animation.sass */
   30% {
     bottom: -90px;
     right: 70px;
   }
 
-  /* line 222, ../../src/stylesheets/_animation.sass */
+  /* line 224, ../../src/stylesheets/_animation.sass */
   35% {
     bottom: -90px;
     right: 75px;
@@ -875,7 +765,7 @@ body {
             transform: scale(0.8);
   }
 
-  /* line 227, ../../src/stylesheets/_animation.sass */
+  /* line 229, ../../src/stylesheets/_animation.sass */
   40% {
     bottom: -90px;
     right: 75px;
@@ -885,7 +775,7 @@ body {
             transform: scale(0.9);
   }
 
-  /* line 232, ../../src/stylesheets/_animation.sass */
+  /* line 234, ../../src/stylesheets/_animation.sass */
   45% {
     bottom: -120px;
     right: 30px;
@@ -895,7 +785,7 @@ body {
             transform: scale(0.95);
   }
 
-  /* line 237, ../../src/stylesheets/_animation.sass */
+  /* line 239, ../../src/stylesheets/_animation.sass */
   50% {
     bottom: -120px;
     right: 30px;
@@ -905,7 +795,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 242, ../../src/stylesheets/_animation.sass */
+  /* line 244, ../../src/stylesheets/_animation.sass */
   60% {
     bottom: -120px;
     right: 30px;
@@ -915,7 +805,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 247, ../../src/stylesheets/_animation.sass */
+  /* line 249, ../../src/stylesheets/_animation.sass */
   70% {
     bottom: -120px;
     right: 30px;
@@ -925,7 +815,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 252, ../../src/stylesheets/_animation.sass */
+  /* line 254, ../../src/stylesheets/_animation.sass */
   80% {
     bottom: -120px;
     right: 30px;
@@ -935,7 +825,7 @@ body {
             transform: scale(1);
   }
 
-  /* line 257, ../../src/stylesheets/_animation.sass */
+  /* line 259, ../../src/stylesheets/_animation.sass */
   90% {
     bottom: -110px;
     right: 70px;
@@ -943,7 +833,7 @@ body {
             transform: scale(0.75);
   }
 
-  /* line 261, ../../src/stylesheets/_animation.sass */
+  /* line 263, ../../src/stylesheets/_animation.sass */
   100% {
     bottom: -110px;
     right: 70px;
@@ -952,7 +842,7 @@ body {
   }
 }
 
-/* line 266, ../../src/stylesheets/_animation.sass */
+/* line 268, ../../src/stylesheets/_animation.sass */
 .screen-1 {
   -webkit-animation-name: slide-one;
           animation-name: slide-one;
@@ -967,13 +857,13 @@ body {
 }
 
 @-webkit-keyframes slide-one {
-  /* line 274, ../../src/stylesheets/_animation.sass */
+  /* line 276, ../../src/stylesheets/_animation.sass */
   0% {
     top: 0px;
     left: 0px;
   }
 
-  /* line 277, ../../src/stylesheets/_animation.sass */
+  /* line 279, ../../src/stylesheets/_animation.sass */
   100% {
     top: 0px;
     left: -200px;
@@ -981,20 +871,20 @@ body {
 }
 
 @keyframes slide-one {
-  /* line 274, ../../src/stylesheets/_animation.sass */
+  /* line 276, ../../src/stylesheets/_animation.sass */
   0% {
     top: 0px;
     left: 0px;
   }
 
-  /* line 277, ../../src/stylesheets/_animation.sass */
+  /* line 279, ../../src/stylesheets/_animation.sass */
   100% {
     top: 0px;
     left: -200px;
   }
 }
 
-/* line 281, ../../src/stylesheets/_animation.sass */
+/* line 283, ../../src/stylesheets/_animation.sass */
 .screen-2 {
   -webkit-animation-name: slide-two;
           animation-name: slide-two;
@@ -1009,13 +899,13 @@ body {
 }
 
 @-webkit-keyframes slide-two {
-  /* line 289, ../../src/stylesheets/_animation.sass */
+  /* line 291, ../../src/stylesheets/_animation.sass */
   0% {
     top: 0px;
     left: 0px;
   }
 
-  /* line 292, ../../src/stylesheets/_animation.sass */
+  /* line 294, ../../src/stylesheets/_animation.sass */
   100% {
     top: -400px;
     left: 0px;
@@ -1023,20 +913,20 @@ body {
 }
 
 @keyframes slide-two {
-  /* line 289, ../../src/stylesheets/_animation.sass */
+  /* line 291, ../../src/stylesheets/_animation.sass */
   0% {
     top: 0px;
     left: 0px;
   }
 
-  /* line 292, ../../src/stylesheets/_animation.sass */
+  /* line 294, ../../src/stylesheets/_animation.sass */
   100% {
     top: -400px;
     left: 0px;
   }
 }
 
-/* line 297, ../../src/stylesheets/_animation.sass */
+/* line 299, ../../src/stylesheets/_animation.sass */
 .animation.step1 .hand-bg {
   top: -20px;
   -webkit-transition-property: none;
@@ -1047,7 +937,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 302, ../../src/stylesheets/_animation.sass */
+/* line 304, ../../src/stylesheets/_animation.sass */
 .animation.step1 .laptop {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1057,7 +947,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 306, ../../src/stylesheets/_animation.sass */
+/* line 308, ../../src/stylesheets/_animation.sass */
 .animation.step1 .finger {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1069,7 +959,7 @@ body {
   bottom: -130px;
   right: 30px;
 }
-/* line 312, ../../src/stylesheets/_animation.sass */
+/* line 314, ../../src/stylesheets/_animation.sass */
 .animation.step1 .screen-1 {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1080,7 +970,7 @@ body {
           animation: none;
   z-index: 5;
 }
-/* line 317, ../../src/stylesheets/_animation.sass */
+/* line 319, ../../src/stylesheets/_animation.sass */
 .animation.step1 .scrreen-2 {
   top: 0px;
   left: 0px;
@@ -1090,7 +980,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 323, ../../src/stylesheets/_animation.sass */
+/* line 325, ../../src/stylesheets/_animation.sass */
 .animation.step1 .screen-3 {
   top: 0px;
   left: 0px;
@@ -1101,7 +991,7 @@ body {
           animation: none;
 }
 
-/* line 331, ../../src/stylesheets/_animation.sass */
+/* line 333, ../../src/stylesheets/_animation.sass */
 .animation.step2 .hand-bg {
   top: -20px;
   -webkit-transition-property: none;
@@ -1112,7 +1002,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 336, ../../src/stylesheets/_animation.sass */
+/* line 338, ../../src/stylesheets/_animation.sass */
 .animation.step2 .laptop {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1122,7 +1012,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 340, ../../src/stylesheets/_animation.sass */
+/* line 342, ../../src/stylesheets/_animation.sass */
 .animation.step2 .finger {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1134,7 +1024,7 @@ body {
   bottom: -130px;
   right: 30px;
 }
-/* line 346, ../../src/stylesheets/_animation.sass */
+/* line 348, ../../src/stylesheets/_animation.sass */
 .animation.step2 .screen-1 {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1145,7 +1035,7 @@ body {
           animation: none;
   z-index: 4;
 }
-/* line 351, ../../src/stylesheets/_animation.sass */
+/* line 353, ../../src/stylesheets/_animation.sass */
 .animation.step2 .screen-2 {
   z-index: 5;
   -webkit-transition-property: none;
@@ -1156,23 +1046,23 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 356, ../../src/stylesheets/_animation.sass */
+/* line 358, ../../src/stylesheets/_animation.sass */
 .animation.step2 .screen-2 .bg {
   top: 0;
   left: 0;
   z-index: 5;
 }
-/* line 360, ../../src/stylesheets/_animation.sass */
+/* line 362, ../../src/stylesheets/_animation.sass */
 .animation.step2 .menu {
   z-index: 5;
 }
-/* line 362, ../../src/stylesheets/_animation.sass */
+/* line 364, ../../src/stylesheets/_animation.sass */
 .animation.step2 .popup {
   top: 70px;
   left: 35px;
   z-index: 5;
 }
-/* line 366, ../../src/stylesheets/_animation.sass */
+/* line 368, ../../src/stylesheets/_animation.sass */
 .animation.step2 .screen-3 {
   top: 0px;
   left: 0px;
@@ -1183,7 +1073,7 @@ body {
           animation: none;
 }
 
-/* line 374, ../../src/stylesheets/_animation.sass */
+/* line 376, ../../src/stylesheets/_animation.sass */
 .animation.step3 .hand-bg {
   top: -20px;
   -webkit-transition-property: none;
@@ -1194,7 +1084,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 379, ../../src/stylesheets/_animation.sass */
+/* line 381, ../../src/stylesheets/_animation.sass */
 .animation.step3 .laptop {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1204,7 +1094,7 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 383, ../../src/stylesheets/_animation.sass */
+/* line 385, ../../src/stylesheets/_animation.sass */
 .animation.step3 .finger {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1216,7 +1106,7 @@ body {
   bottom: -130px;
   right: 30px;
 }
-/* line 389, ../../src/stylesheets/_animation.sass */
+/* line 391, ../../src/stylesheets/_animation.sass */
 .animation.step3 .screen-1 {
   -webkit-transition-property: none;
           transition-property: none;
@@ -1227,7 +1117,7 @@ body {
           animation: none;
   z-index: 4;
 }
-/* line 394, ../../src/stylesheets/_animation.sass */
+/* line 396, ../../src/stylesheets/_animation.sass */
 .animation.step3 .screen-2 {
   z-index: 4;
   -webkit-transition-property: none;
@@ -1238,24 +1128,100 @@ body {
   -webkit-animation: none;
           animation: none;
 }
-/* line 399, ../../src/stylesheets/_animation.sass */
+/* line 401, ../../src/stylesheets/_animation.sass */
 .animation.step3 .screen-2 .bg {
   top: 0;
   left: 0;
   z-index: 4;
 }
-/* line 403, ../../src/stylesheets/_animation.sass */
+/* line 405, ../../src/stylesheets/_animation.sass */
 .animation.step3 .menu {
   z-index: 5;
 }
-/* line 405, ../../src/stylesheets/_animation.sass */
+/* line 407, ../../src/stylesheets/_animation.sass */
 .animation.step3 .popup {
   top: 70px;
   left: 35px;
   z-index: 4;
 }
-/* line 409, ../../src/stylesheets/_animation.sass */
+/* line 411, ../../src/stylesheets/_animation.sass */
 .animation.step3 .screen-3 {
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-animation: none;
+          animation: none;
+}
+
+/* line 419, ../../src/stylesheets/_animation.sass */
+.animation.step4 .hand-bg {
+  display: none;
+}
+/* line 421, ../../src/stylesheets/_animation.sass */
+.animation.step4 .laptop {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  top: -10px;
+}
+/* line 426, ../../src/stylesheets/_animation.sass */
+.animation.step4 .finger {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  bottom: -130px;
+  right: 30px;
+}
+/* line 432, ../../src/stylesheets/_animation.sass */
+.animation.step4 .screen-1 {
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+  z-index: 4;
+}
+/* line 437, ../../src/stylesheets/_animation.sass */
+.animation.step4 .screen-2 {
+  z-index: 4;
+  -webkit-transition-property: none;
+          transition-property: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  -webkit-animation: none;
+          animation: none;
+}
+/* line 442, ../../src/stylesheets/_animation.sass */
+.animation.step4 .screen-2 .bg {
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+/* line 446, ../../src/stylesheets/_animation.sass */
+.animation.step4 .menu {
+  z-index: 5;
+}
+/* line 448, ../../src/stylesheets/_animation.sass */
+.animation.step4 .popup {
+  top: 70px;
+  left: 35px;
+  z-index: 4;
+}
+/* line 452, ../../src/stylesheets/_animation.sass */
+.animation.step4 .screen-3 {
   top: 0px;
   left: 0px;
   z-index: 5;
@@ -1284,38 +1250,50 @@ a {
 
 /* line 18, ../../src/stylesheets/main.sass */
 h2, h3 {
-  font-family: "proxima_novalight";
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
   color: #2c5385;
 }
 
-/* line 22, ../../src/stylesheets/main.sass */
-p, span {
-  font-family: "proxima_nova_rgregular";
+/* line 23, ../../src/stylesheets/main.sass */
+h4, h5 {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+}
+
+/* line 27, ../../src/stylesheets/main.sass */
+p, span, a, ul, ol {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
   color: #2c5385;
 }
 
-/* line 25, ../../src/stylesheets/main.sass */
+/* line 31, ../../src/stylesheets/main.sass */
 ul {
   margin-left: 20px;
   color: white;
 }
 
-/* line 29, ../../src/stylesheets/main.sass */
-.button {
-  font-family: "proxima_novasemibold";
-}
-
-/* line 32, ../../src/stylesheets/main.sass */
-input {
-  font-family: "proxima_novalight";
-}
-
 /* line 35, ../../src/stylesheets/main.sass */
-footer span {
-  font-family: "proxima_novalight";
+.button {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 600;
+  outline: none;
 }
 
-/* line 38, ../../src/stylesheets/main.sass */
+/* line 40, ../../src/stylesheets/main.sass */
+input {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
+}
+
+/* line 44, ../../src/stylesheets/main.sass */
+footer span {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
+}
+
+/* line 48, ../../src/stylesheets/main.sass */
 .button {
   text-transform: uppercase;
   background: #a9cb5d;
@@ -1327,12 +1305,12 @@ footer span {
   letter-spacing: 2px;
   cursor: pointer;
 }
-/* line 48, ../../src/stylesheets/main.sass */
+/* line 58, ../../src/stylesheets/main.sass */
 .button:hover {
-  background: #8ca552;
+  background-color: #83a635;
 }
 
-/* line 51, ../../src/stylesheets/main.sass */
+/* line 61, ../../src/stylesheets/main.sass */
 input {
   border-radius: 11px;
   background: white;
@@ -1340,7 +1318,40 @@ input {
   padding: 12px 20px;
 }
 
-/* line 58, ../../src/stylesheets/main.sass */
+/* line 68, ../../src/stylesheets/main.sass */
+.js-input.valid {
+  border-color: #a9cb5d;
+}
+/* line 70, ../../src/stylesheets/main.sass */
+.js-input.valid::-webkit-input-placeholder {
+  color: #a9cb5d;
+}
+/* line 72, ../../src/stylesheets/main.sass */
+.js-input.valid::-moz-placeholder {
+  color: #a9cb5d;
+}
+/* line 74, ../../src/stylesheets/main.sass */
+.js-input.valid:-ms-input-placeholder {
+  color: #a9cb5d;
+}
+/* line 77, ../../src/stylesheets/main.sass */
+.js-input.error {
+  border-color: #dbb0a0;
+}
+/* line 79, ../../src/stylesheets/main.sass */
+.js-input.error::-webkit-input-placeholder {
+  color: #dbb0a0;
+}
+/* line 81, ../../src/stylesheets/main.sass */
+.js-input.error::-moz-placeholder {
+  color: #dbb0a0;
+}
+/* line 83, ../../src/stylesheets/main.sass */
+.js-input.error:-ms-input-placeholder {
+  color: #dbb0a0;
+}
+
+/* line 88, ../../src/stylesheets/main.sass */
 .hero {
   height: 368px;
   background: url("../images/bg.jpg");
@@ -1349,16 +1360,16 @@ input {
           background-size: cover;
 }
 
-/* line 64, ../../src/stylesheets/main.sass */
+/* line 94, ../../src/stylesheets/main.sass */
 .actions {
   background: #eff3f6;
   padding: 28px;
 }
-/* line 67, ../../src/stylesheets/main.sass */
+/* line 97, ../../src/stylesheets/main.sass */
 .actions form {
   text-align: center;
 }
-/* line 69, ../../src/stylesheets/main.sass */
+/* line 99, ../../src/stylesheets/main.sass */
 .actions p {
   letter-spacing: 0.02em;
   line-height: 19px;
@@ -1369,53 +1380,56 @@ input {
   vertical-align: middle;
   color: #274c79;
 }
-/* line 78, ../../src/stylesheets/main.sass */
+/* line 108, ../../src/stylesheets/main.sass */
 .actions input[type="email"] {
   width: 302px;
   margin-right: 20px;
   vertical-align: middle;
 }
-/* line 82, ../../src/stylesheets/main.sass */
+/* line 112, ../../src/stylesheets/main.sass */
 .actions .button {
   width: 190px;
   vertical-align: middle;
 }
-/* line 85, ../../src/stylesheets/main.sass */
+/* line 115, ../../src/stylesheets/main.sass */
 .actions input[type="submit"] {
   border: none;
   vertical-align: middle;
 }
 
-/* line 90, ../../src/stylesheets/main.sass */
+/* line 120, ../../src/stylesheets/main.sass */
 .callouts {
-  padding-top: 58px;
+  padding: 58px 0;
   background: white;
 }
+/* line 125, ../../src/stylesheets/main.sass */
+.callouts .row:first-child .callout {
+  margin-bottom: 48px;
+}
 
-/* line 93, ../../src/stylesheets/main.sass */
+/* line 127, ../../src/stylesheets/main.sass */
 .callout {
   text-align: center;
-  height: 340px;
 }
-/* line 96, ../../src/stylesheets/main.sass */
+/* line 129, ../../src/stylesheets/main.sass */
 .callout .wrapper {
   width: 210px;
   margin: 0 auto;
 }
-/* line 99, ../../src/stylesheets/main.sass */
+/* line 132, ../../src/stylesheets/main.sass */
 .callout img {
   margin-bottom: 10px;
 }
-/* line 101, ../../src/stylesheets/main.sass */
+/* line 134, ../../src/stylesheets/main.sass */
 .callout h3 {
   margin-bottom: 15px;
 }
-/* line 103, ../../src/stylesheets/main.sass */
+/* line 136, ../../src/stylesheets/main.sass */
 .callout p {
   font-size: 14px;
 }
 
-/* line 107, ../../src/stylesheets/main.sass */
+/* line 140, ../../src/stylesheets/main.sass */
 .social i {
   width: 35px;
   height: 35px;
@@ -1426,55 +1440,172 @@ input {
   color: white;
   cursor: pointer;
 }
-/* line 116, ../../src/stylesheets/main.sass */
+/* line 149, ../../src/stylesheets/main.sass */
 .social i.fa-facebook {
   background: #3460a1;
 }
-/* line 118, ../../src/stylesheets/main.sass */
+/* line 151, ../../src/stylesheets/main.sass */
 .social i.fa-twitter {
   background: #28aae1;
 }
-/* line 120, ../../src/stylesheets/main.sass */
+/* line 153, ../../src/stylesheets/main.sass */
 .social i.fa-linkedin {
   background: #136d9d;
 }
 
-/* line 123, ../../src/stylesheets/main.sass */
+/* line 156, ../../src/stylesheets/main.sass */
+.privacy-policy,
+.terms-of-service {
+  background-color: #eff3f6;
+  color: black;
+  padding: 40px 0;
+}
+/* line 162, ../../src/stylesheets/main.sass */
+.privacy-policy h2,
+.terms-of-service h2 {
+  color: black;
+  font-size: 1.375em;
+  margin-bottom: 1em;
+}
+/* line 167, ../../src/stylesheets/main.sass */
+.privacy-policy h5,
+.terms-of-service h5 {
+  font-size: 1em;
+}
+/* line 170, ../../src/stylesheets/main.sass */
+.privacy-policy p,
+.privacy-policy ul,
+.privacy-policy ol,
+.terms-of-service p,
+.terms-of-service ul,
+.terms-of-service ol {
+  color: black;
+  font-size: 0.875em;
+  line-height: 1.4285;
+  margin-bottom: 1.4285em;
+}
+/* line 178, ../../src/stylesheets/main.sass */
+.privacy-policy p ul, .privacy-policy p ol,
+.privacy-policy ul ul,
+.privacy-policy ul ol,
+.privacy-policy ol ul,
+.privacy-policy ol ol,
+.terms-of-service p ul,
+.terms-of-service p ol,
+.terms-of-service ul ul,
+.terms-of-service ul ol,
+.terms-of-service ol ul,
+.terms-of-service ol ol {
+  font-size: 1em;
+}
+/* line 182, ../../src/stylesheets/main.sass */
+.privacy-policy p ul, .privacy-policy p ol, .privacy-policy p:last-child,
+.privacy-policy ul ul,
+.privacy-policy ul ol,
+.privacy-policy ul:last-child,
+.privacy-policy ol ul,
+.privacy-policy ol ol,
+.privacy-policy ol:last-child,
+.terms-of-service p ul,
+.terms-of-service p ol,
+.terms-of-service p:last-child,
+.terms-of-service ul ul,
+.terms-of-service ul ol,
+.terms-of-service ul:last-child,
+.terms-of-service ol ul,
+.terms-of-service ol ol,
+.terms-of-service ol:last-child {
+  margin-bottom: 0;
+}
+/* line 187, ../../src/stylesheets/main.sass */
+.privacy-policy ul,
+.terms-of-service ul {
+  padding-left: 1em;
+  margin-left: 0;
+}
+/* line 191, ../../src/stylesheets/main.sass */
+.privacy-policy ol,
+.terms-of-service ol {
+  padding-left: 1.75em;
+}
+/* line 194, ../../src/stylesheets/main.sass */
+.privacy-policy a,
+.terms-of-service a {
+  color: blue;
+}
+/* line 197, ../../src/stylesheets/main.sass */
+.privacy-policy .container,
+.terms-of-service .container {
+  padding: 0 3.125%;
+}
+
+/* line 200, ../../src/stylesheets/main.sass */
 footer {
   background: #eff3f6;
   text-align: center;
   font-size: 0.9em;
   padding: 35px;
-  margin-top: 30px;
   color: #2c5385;
 }
-/* line 130, ../../src/stylesheets/main.sass */
+/* line 206, ../../src/stylesheets/main.sass */
 footer a {
   color: #2c5385;
 }
-/* line 132, ../../src/stylesheets/main.sass */
+/* line 208, ../../src/stylesheets/main.sass */
 footer a:first-of-type {
   margin-left: 20px;
 }
-/* line 135, ../../src/stylesheets/main.sass */
+/* line 211, ../../src/stylesheets/main.sass */
 footer a:not(:last-child):after {
   margin: 0 10px;
   content: "|";
 }
+/* line 215, ../../src/stylesheets/main.sass */
+footer.footer__bg-white {
+  background: white;
+}
 
 @media only screen and (min-width: 725px) and (max-width: 960px) {
-  /* line 140, ../../src/stylesheets/main.sass */
+  /* line 219, ../../src/stylesheets/main.sass */
   input[type="submit"] {
     margin-top: 20px;
   }
 }
 @media only screen and (max-width: 724px) {
-  /* line 145, ../../src/stylesheets/main.sass */
+  /* line 224, ../../src/stylesheets/main.sass */
   .actions p {
     text-align: center;
   }
-  /* line 147, ../../src/stylesheets/main.sass */
+  /* line 226, ../../src/stylesheets/main.sass */
   .actions input {
     margin-top: 20px;
+  }
+
+  /* line 228, ../../src/stylesheets/main.sass */
+  .hand-bg, .laptop-animation, .navigator {
+    display: none;
+  }
+
+  /* line 230, ../../src/stylesheets/main.sass */
+  .content {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  /* line 234, ../../src/stylesheets/main.sass */
+  .actions input[type="email"] {
+    margin: 0;
+  }
+
+  /* line 236, ../../src/stylesheets/main.sass */
+  .actions p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  /* line 239, ../../src/stylesheets/main.sass */
+  .callout {
+    height: 270px;
   }
 }
