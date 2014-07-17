@@ -7,34 +7,33 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+    <script src="bower_components/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
     <script src="scripts/app.js"></script>
   </head>
-  <body><!--[if lt IE 8]>
-    <p class="browsehappy">
-      You are using an <strong>outdated</strong> browser.
-      Please <a href="http://browsehappy.com/">upgrade your browser</a>
-      to improve your experience.
-    </p><![endif]-->
+  <body>
     <header>
       <div class="container">
         <div class="row">
           <div class="logo col">
             <h1><img src="images/logo.png"></h1>
           </div>
-          <div class="social col"><a href="https://www.facebook.com/opentreatment"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/OpenTreatment"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/opentreatment"></a><i class="fa fa-linkedin"></i></div>
+          <div class="social col"><a href="https://www.facebook.com/opentreatment"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/OpenTreatment"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/opentreatment"><i class="fa fa-linkedin"></i></a></div>
         </div>
       </div>
     </header>
     <section class="hero">
-      <div class="container animation">
+      <div class="container animation-content">
         <div class="mobile-animation">
           <div class="hand-bg">
             <div src="images/finger.png" class="finger"></div>
             <div class="screens"><img src="images/screen-1.jpg" class="screen-1">
-              <div class="screen-2"><img src="images/screen-2.jpg" class="bg"><img src="images/popup.png" class="popup"></div><img src="images/screen-3.jpg" class="screen-3"><img src="images/menu.jpg" class="menu">
+              <div class="screen-2"><img src="images/screen-2.jpg" class="bg"><img src="images/markers.png" class="markers"><img src="images/popup.png" class="popup"></div><img src="images/screen-3.jpg" class="screen-3"><img src="images/menu.jpg" class="menu">
             </div>
           </div>
           <div class="content">
@@ -44,7 +43,7 @@
             </div>
             <div class="content-2">
               <h2>State of the Art Features</h2>
-              <p>This location based service delivers local facilities & ER wait times to users via the OpenTreatment App on the go in the event of an emergency.</p>
+              <p>This location based service delivers local facilities & ER wait times to users via the OpenTreatment App, on the go, in the event of an emergency.</p>
               <ul>
                 <li>Find local ER wait times &amp; pertinent hospital information</li>
                 <li>Increase traffic to facilities</li>
@@ -72,13 +71,48 @@
           <button data-content="content-3" class="step-4"></button>
         </div>
       </div>
+      <div class="container slider-container hidden">
+        <div class="slider">
+          <div class="slider-content">
+            <div class="content">
+              <h2>OpenTreatment is a mobile app, web-based portal designed to:</h2>
+              <p>Easily find and locate hospitals, private practices, physicians, dentists & healthcare providers via GPS tracking on your mobile device while submitting patient intake forms and insurance verification prior to your visit.</p>
+            </div>
+            <div class="image"><img src="images/slider-1.png"></div>
+          </div>
+          <div class="slider-content">
+            <div class="content">
+              <h2>State of the Art Features</h2>
+              <p>This location based service delivers local facilities & ER wait times to users via the OpenTreatment App, on the go, in the event of an emergency.</p>
+              <ul>
+                <li>Find local ER wait times &amp; pertinent hospital information</li>
+                <li>Increase traffic to facilities</li>
+                <li>Increase ER traffic by an estimated 20%</li>
+              </ul>
+            </div>
+            <div class="image">  <img src="images/slider-2.png"></div>
+          </div>
+          <div class="slider-content">
+            <div class="content">
+              <h2>Patient Intake and Processing Forms</h2>
+              <ul>
+                <li>Increase on-time appointment starts & arrivals</li>
+                <li>Pre-formatted forms are available by specialty</li>
+                <li>Forms are fully customizable</li>
+                <li>Patients & office staff spend little to no time completing patient forms</li>
+              </ul>
+            </div>
+            <div class="image"><img src="images/laptop.png"></div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="actions">
       <div class="container">
         <form>
           <p>Please submit your email address to receive the OpenTreatment App at launch.</p>
           <input type="email" placeholder="Your email address..." class="js-input">
-          <input type="submit" class="js-submit button">
+          <input type="submit" value="Submit" placeholder="Submit" class="js-submit button">
         </form>
       </div>
     </section>
@@ -88,7 +122,7 @@
           <div class="callout col">
             <div class="wrapper"><img src="images/locations.png">
               <h3>Locations</h3>
-              <p>Find the closest ER Hospitals, Private Practices, Physicians, Dentists, &amp; Healthcare Providers.</p>
+              <p>Find the closest ER hospitals, private practices, physicians, dentists, &amp; healthcare providers.</p>
             </div>
           </div>
           <div class="callout col">
@@ -103,8 +137,6 @@
               <p>Includes an intuitive, user-friendly interface and users are not required to download or install any software.</p>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="callout col">
             <div class="wrapper"><img src="images/technical.png">
               <h3>Technical Benefits</h3>
@@ -129,5 +161,6 @@
     <footer>
       <div class="container"><span class="copyright">OpenTreatment &copy; 2014</span><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a></div>
     </footer>
+    <script>$('input').placeholder()</script>
   </body>
 </html>
