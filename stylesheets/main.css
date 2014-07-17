@@ -1315,7 +1315,7 @@ body {
           animation: none;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 961px) {
   /* line 499, ../../src/stylesheets/_animation.sass */
   .animation-content {
     display: none;
@@ -1326,6 +1326,25 @@ body {
     width: 300px;
   }
   /* line 504, ../../src/stylesheets/_animation.sass */
+  .slider-content .image {
+    right: -80px;
+  }
+  /* line 506, ../../src/stylesheets/_animation.sass */
+  .slider-content .image img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 725px) {
+  /* line 510, ../../src/stylesheets/_animation.sass */
+  .animation-content {
+    display: none;
+  }
+
+  /* line 513, ../../src/stylesheets/_animation.sass */
+  .slider-content .content {
+    width: 300px;
+  }
+  /* line 515, ../../src/stylesheets/_animation.sass */
   .slider-content .image {
     display: none;
   }
